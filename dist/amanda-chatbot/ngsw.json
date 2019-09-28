@@ -1,0 +1,82 @@
+{
+  "configVersion": 1,
+  "timestamp": 1569690449305,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.16a6c485e564266d9944.js",
+        "/main-es5.92c9c8b8a93662232cc8.js",
+        "/polyfills-es2015.4d31cca2afc45cfd85b5.js",
+        "/polyfills-es5.2219c87348e60efc0076.js",
+        "/runtime-es2015.703a23e48ad83c851e49.js",
+        "/runtime-es5.465c2333d355155ec5f3.js",
+        "/styles.a7974b3d134ecb1f59e7.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/bot.png",
+        "/assets/images/fembot.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon-128x128.png": "576c09678c16dce569e8f1b5c65222cc3bc86353",
+    "/assets/icons/icon-144x144.png": "19097405ef95185e55526322007bb6313778356d",
+    "/assets/icons/icon-152x152.png": "851d119a5ec002133842344616a77a7edd8ce6e2",
+    "/assets/icons/icon-192x192.png": "72713c60ac006337b3e313de57f62b593c63d27b",
+    "/assets/icons/icon-384x384.png": "8c737adc58f4c76e644555442606a3d38da5b4d2",
+    "/assets/icons/icon-512x512.png": "2d637b1afc8ce5d622ceee1b1678e2565e4eabb1",
+    "/assets/icons/icon-72x72.png": "00273d1c5edf42ef8e834c2247b9b427f117de58",
+    "/assets/icons/icon-96x96.png": "920bd3d41c61fa07fadcbe0d33a5b4a87496b9fc",
+    "/assets/images/bot.png": "d3b0483df93b16d459a9e1ea33b724dc8de50ea0",
+    "/assets/images/fembot.png": "5a0192d0314889508d5257be88fff49c6895c2d7",
+    "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/index.html": "65893934170200a07766de2bdc647bb08ebf6553",
+    "/main-es2015.16a6c485e564266d9944.js": "932cf25ccd5ba5d658b4d7ea43cc96a4ab57afc9",
+    "/main-es5.92c9c8b8a93662232cc8.js": "3aad88c0296ca124d348c3232864c827c3262f36",
+    "/polyfills-es2015.4d31cca2afc45cfd85b5.js": "058203dab4ba87056d6976029ba60fa42e6f75b9",
+    "/polyfills-es5.2219c87348e60efc0076.js": "6c9688c6586bfcf669879655ba5874ef1d2b4bcf",
+    "/runtime-es2015.703a23e48ad83c851e49.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/runtime-es5.465c2333d355155ec5f3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/styles.a7974b3d134ecb1f59e7.css": "50cb3d0a3ab9a05a8b9d32fff68f7c63ff9a9620"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

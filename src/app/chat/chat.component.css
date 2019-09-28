@@ -1,0 +1,32 @@
+.chat-container{
+
+}
+.chat-window{
+    height: 80vh;
+    overflow-y: auto;
+}
+.message-input{
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+    width: 80%;
+    min-height: 5%;
+    margin: auto;
+}
+.input-msg-box{
+}
+
+.msg-bubble-bot{
+    border-radius: 10rem;
+    background-color: #EBE8EF;
+    color: #000000;
+    padding:0.5rem; 
+    padding-left: 0.8rem;
+    display: inline-block;
+}
+.msg-bubble-human{
+    border-radius: 10rem;
+    background-color: #0069D9;
+    color: #ffffff;
+    padding: 0.5rem;
+}
