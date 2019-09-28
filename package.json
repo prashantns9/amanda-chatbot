@@ -13,7 +13,7 @@
     "build-linux": "electron-packager ./ amanda-chatbot --platform=linux --arch=x64",
     "postinstall": "ng build --aot --prod"
   },
-  "engines": { "node": "8.12.0", "npm": "6.4.1" },
+  "engines": { "node": "10.16.0", "npm": "6.9.0" },
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.1.1",
