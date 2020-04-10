@@ -10,7 +10,7 @@ import { Message } from '../models/message.model';
 export class ChatComponent implements OnInit {
 
   conversation: Message[] = [];
-  inputMessage: string = '';
+  inputMessage: string = 'Tell me about Prashant';
 
   constructor(private _chatService: ChatService) { }
 
